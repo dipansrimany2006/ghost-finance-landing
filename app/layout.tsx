@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono, JetBrains_Mono } from "next/font/google"
+import { Poppins } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import ScrollAnimations from "@/components/ScrollAnimations"
@@ -9,7 +9,7 @@ import PageTransition from "@/components/PageTransition"
 import NavigationLoader from "@/components/NavigationLoader"
 import SilkBackground from "@/components/SilkBackground"
 
-const geistMono = JetBrains_Mono({ subsets: ["latin"] })
+const poppins = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] })
 
 export const metadata: Metadata = {
   title: "GHOST Finance - Fixed-Rate P2P Lending",
@@ -54,8 +54,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistMono.className} font-sans antialiased`}>
-        <SilkBackground />
+      <body className={`${poppins.className} font-sans antialiased`}>
         <PageLoader />
         <NavigationLoader />
         <PageTransition />

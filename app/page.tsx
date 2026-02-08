@@ -26,7 +26,7 @@ export default function Home() {
     <>
       <div className="container">
         <nav>
-          <div className="logo flex gap-4">
+          <div className="logo flex gap-2">
             <Image src="/ghost-finance.png" alt="Ghost Finance Logo" width={38} height={38} />
             Ghost Finance
           </div>

@@ -133,6 +133,11 @@
 
 html {
   background-color: #000000;
+  background-image: url("/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 * {
@@ -182,7 +187,7 @@ nav {
 }
 
 .logo {
-  font-weight: 900;
+  font-weight: 500;
   font-size: 24px;
   letter-spacing: -1px;
 }
@@ -211,7 +216,7 @@ nav {
 
 .hero h1 {
   font-size: clamp(50px, 10vw, 160px);
-  font-weight: 900;
+  font-weight: 500;
   line-height: 0.85;
   letter-spacing: -0.05em;
   text-transform: uppercase;
@@ -242,7 +247,7 @@ nav {
   grid-column: 8 / span 4;
   font-size: 18px;
   line-height: 1.6;
-  color: rgb(136, 136, 136);
+  color: rgb(201, 200, 200);
 }
 
 .project-grid {
@@ -424,10 +429,6 @@ footer {
 
   nav {
     height: 80px;
-  }
-
-  .logo {
-    font-size: 20px;
   }
 
   .nav-links {
