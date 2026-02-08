@@ -41,11 +41,7 @@ export default function Home() {
 
         <section className="hero">
           <h1>
-            Manifest 
-            <br/>
-            Your
-            <br /> 
-            Credit
+            Crypto Lending Isn't Dead Yet
           </h1>
           <div className="hero-meta">
             <p>
