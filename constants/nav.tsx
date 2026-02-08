@@ -1,5 +1,5 @@
 export const Links: LinkType[] = [
-  { label: "DOCS", href: "/documentation" },
+  { label: "Whitepaper", href: "/whitepaper" },
   { label: "LAUNCH APP", href: "/app" }
 ]
 
